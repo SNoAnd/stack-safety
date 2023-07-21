@@ -1,0 +1,24 @@
+-R . StackSafety
+
+Properties/Trace.v
+Core/MachineModule.v
+Core/PolicyModule.v
+Core/RISCVMachine.v
+Core/Lazy.v
+Core/Eager.v
+
+Properties/CtxModule.v
+
+Testing/TestingModules.v
+Testing/DefaultLayoutLazy.v
+Testing/DefaultLayoutEager.v
+Testing/PrintLazy.v
+Testing/PrintEager.v
+Testing/GenLazy.v
+Testing/GenEager.v
+Testing/TestProperties.v
+
+-R ../mit-riscv/riscv-coq/src/riscv riscv
+-Q ../mit-riscv/coqutil/src/coqutil coqutil
+-Q ../mit-riscv/coq-record-update/src RecordUpdate
+
